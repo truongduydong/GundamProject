@@ -1,0 +1,75 @@
+body {
+    background: url('http://localhost:9999/Assignment_HE176167/images/Backgrounp.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.home-button {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px 0px 4px 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: #888;
+    color: #fff;
+    text-decoration: none;
+  }
+
+.banner{
+    margin-top: 50px;
+    padding: 0px 10%;
+    margin-bottom: 60px;
+}
+.banner-img{
+    text-align: center;
+}
+
+.banner-img img{
+    width: auto;
+    height: 500px;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.banner-content{
+    height: 500px;
+    
+}
+
+.banner-content h2, p{
+    color: white;
+    margin-left: 20px;
+}
+
+.banner-content p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.banner-content h2{
+    margin: 20px 20px;
+}
+
+.banner-content{
+    background-color: rgba(0,0,0,0.6);
+
+}
